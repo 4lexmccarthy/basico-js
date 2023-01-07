@@ -2,7 +2,7 @@
 
 Explora los temas y ejercicios desarrollados en el [curso básico de JavaScript de Platzi](https://platzi.com/cursos/basico-javascript/).
 
-Haz [click aqui](4lexmccarthy.github.io/basico-js/index.html) para visitar el proyecto.
+Haz [click aqui](https://4lexmccarthy.github.io/basico-js/index.html) para visitar el proyecto.
 
 
 ## License
