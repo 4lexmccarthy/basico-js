@@ -1,3 +1,5 @@
+/* LAST MODIFIED: 1/7/2023*/
+
 * {
  margin: 0;
 }
@@ -18,7 +20,7 @@ header .h1{
 }
 
 header .p{
- color: var(--gray2);
+ color: var(--gray3);
 }
 
 header .label-light2 {
@@ -53,6 +55,7 @@ main {
  width: 100%;
  padding: 1rem 2rem;
  display: flex;
+ align-items: center;
  flex-flow: row nowrap;
  justify-content: space-between;
  /* background: lightblue; */
@@ -150,36 +153,31 @@ main {
   }
 }
 
-.contact-card img {
- height: 60px;
- margin: auto 0;
- user-select: none;
-}
-
 .name {
- margin: auto 1rem;
- padding: 0 1rem;
- width: 100%;
- border-left: 1px solid var(--gray3);
- border-right: 1px solid var(--gray3);
-}
-
-.status {
- margin: auto 0;
- user-select: none;
-}
-
-.contact-name {
- font-family: "Inter", sans-serif;
- font-size: 1.5rem;
- font-weight: 600;
- letter-spacing: -0.035em;
+ text-align: left;
 }
 
 .label {
  opacity: 1 !important;
  color: var(--gray3) !important;
 } /*overrides rules from global.css */
+
+.contact-name {
+ font-family: "Inter", sans-serif;
+ font-size: 1.5rem;
+ font-weight: 600;
+ letter-spacing: -0.035em;
+ margin: 0;
+}
+
+.name .p{
+ font-size: 1rem;
+ line-height: 1.5rem;
+}
+
+.contact-card button{
+ min-width: fit-content;
+}
 /*contact-card*/
 
 /*Media Queries*/
@@ -215,7 +213,11 @@ main {
 @media (max-width: 768px) {
  /*header*/
  header {
-  text-align: center;
+  text-align: left;
+ }
+
+ header h1{
+  margin:1rem 0;
  }
  /*header*/
 
@@ -229,7 +231,7 @@ main {
 @media (max-width: 576px) {
  /*header*/
  header{
-  width: 95%;
+  width: 90%;
   text-align: left;
  }
  /*header*/
@@ -241,10 +243,15 @@ main {
   border-radius: 1.5rem;
  }
  /*card-wrapper*/
-
+ 
  /*contact-card*/
  .contact-card {
-  padding: 0.75rem 0;
+  padding: 0.75rem 0 0 0;
+  flex-flow: column nowrap;
+ }
+
+ .name{
+  width: 90%;
  }
  /*contact-card*/
 }

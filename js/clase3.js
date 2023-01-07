@@ -1,4 +1,4 @@
-/* Clase 3: Tipos de datos en JS 
+/* Clase 3: Variables y tipos de datos en JS 
    Fecha: Jan 3, 2023
 */
 
@@ -25,16 +25,19 @@ let variables = ["numerito", "texto", "sinDefinir", "soyFalso", "cajita", "usuar
 
 /* Data para la interfaz */
 let claseData = {
- nombre: "Clase 3",
- tema: "Tipos de Datos en JavaScript",
- comentario:'Los <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos" target="_blank" rel=”noopener noreferrer” class="link">datos primitivos</a> son los tipos de datos más básicos en JS y contienen solo un valor. Por su parte, los  <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#objetos" target="_blank" rel=”noopener noreferrer” class="link">datos tipo objeto</a> pueden verse como una colección de variables y valores (propiedades).',
+ nombre: "Clase 3-4",
+ tema: "Variables y tipos de Datos en JavaScript",
  filename: "clase3.js"
 };
+
+// Cada elemento de este array es un parrafo. Incluye de 1 a 3 parrafos para dar contexto.
+let claseComments =[
+ `Las <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables" target="_blank" rel=”noopener noreferrer” class="link">variables</a> son contenedores usados para guardar distintas clases de valores.`,
+ `Los <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos" target="_blank" rel=”noopener noreferrer” class="link">datos primitivos</a> son los tipos de datos más básicos en JS y contienen solo un valor. Por su parte, los  <a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#objetos" target="_blank" rel=”noopener noreferrer” class="link">datos tipo objeto</a> pueden verse como una colección de variables y valores (propiedades).`
+];
 
 
 /* Instrucciones en consola */
 console.log(`Bienvenido a la ${claseData.nombre} del Curso Básico de JavaScript.`);
-console.log(
- `Explora el contenido las siguientes variables y ejecuta el comando "typeof" para averiguar su tipo de dato:`
- );
- console.table(variables);
+console.log(`Explora el contenido las siguientes variables y ejecuta el comando "typeof" para averiguar su tipo de dato:`);
+console.table(variables);

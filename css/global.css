@@ -30,7 +30,7 @@ body{
 	--black:#000000;
 	--gray1: #434343; 
 	--gray2:#6e6e73;
-	--gray3:#a1a1a6;
+	--gray3:#a1a1a6; /* text color over dark backgrounds*/
 	--gray4: #f2f2f2; 
 	--color1: #1ca68a;
 	--color2: #FFD769;
@@ -153,6 +153,7 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 1.5;
  opacity: 0.6;
  text-transform: uppercase;
+ user-select: none;
  color: var(--gray1);
 }
 /*Text Styles*/
