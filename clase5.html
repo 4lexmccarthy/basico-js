@@ -1,0 +1,54 @@
+<!--LAST MODIFIED: 1/8/2023-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Curso Básico de JS</title>
+ <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+ <!--External Links-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ <!--External Links-->
+ <link rel="stylesheet" href="css/global.css">
+ <link rel="stylesheet" href="css/clase.css">
+</head>
+<body>
+ <main>
+  <header id="header"class="normal-cont">
+    <div id="headerL">
+     <p class="label-light2">Curso Básico de JavaScript > <wbr><span id="claseNombre">claseNombre</span></p>
+     <h1 class="h1"><span id="claseTema"></span></h1>
+     <div id="commentContainer">
+     </div>
+     <div class="c-panel">
+      <div class="buttons">
+       <button id="goHome" class="btn dark1 paddingL"><a href="index.html"><i class="fa fa-arrow-left"></i>&nbsp;Inicio</a></button>
+       <button id="goPlatzi" class="btn success2 paddingL"><a href="https://platzi.com/cursos/basico-javascript/" target="_blank" rel=”noopener noreferrer”>Ver Curso&nbsp;<i class="fa fa-external-link-alt"></i></a></button>
+      </div>
+    </div>
+    </div>
+    <div id="demo" class="code-demo">
+     <p>*--Instrucciones--*</p>
+     <ol>
+      <li>Abre las herramientas de desarrollador (apretando la tecla F12).</li>
+      <li>Ve a la consola de JavaScript (pestaña "Console").</li>
+      <li>Ejecuta las instrucciones que aparezcan en pantalla.</li>
+     </ol>
+     <br>
+     <p>Para darle un vistazo al código, accede a la pestaña "Sources" y dirígete a: top > js > <span id="claseFilename"></span>.</p>
+    </div>
+  </header>
+ </main>
+<footer>
+ <p>Alex McCarthy | 2023</p>
+</footer>
+<!--Scripts Go Here-->
+<script src="js/updateUI.js" defer></script>
+<script src="js/clase5.js" defer onload="updateUI()"></script>
+<!--Scripts Go Here-->
+</body>
+</html>

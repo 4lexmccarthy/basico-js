@@ -38,6 +38,6 @@ let claseComments =[
 
 
 /* Instrucciones en consola */
-console.log(`Bienvenido a la ${claseData.nombre} del Curso Básico de JavaScript.`);
+console.warn(`Bienvenido a la ${claseData.nombre} del Curso Básico de JavaScript.`);
 console.log(`Explora el contenido las siguientes variables y ejecuta el comando "typeof" para averiguar su tipo de dato:`);
 console.table(variables);

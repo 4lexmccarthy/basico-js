@@ -35,7 +35,7 @@ body {
 	width: 90%;
  height: 75vh;
  padding: 0 0.5rem;
- border: outset 1rem #0d0d17;
+ border: solid 1rem #0d0d17;
  border-radius: 20px;
 	background: #0d0d17;
  color: #bbbbbb;

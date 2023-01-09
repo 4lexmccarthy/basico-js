@@ -352,7 +352,7 @@ code{
 	font-size: 0.7rem;
 	background-color: var(--gray1);
 	color:#34ebc0;
-	border-radius: 100px;
+	border-radius: 6px;
 }
 .nowrap{
 	white-space: nowrap;
